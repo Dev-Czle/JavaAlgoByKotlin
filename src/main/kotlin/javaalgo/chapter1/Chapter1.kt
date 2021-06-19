@@ -90,4 +90,17 @@ class Chapter1 {
         // 우선 가독성 자체가 매우 떨어짐.
         // 또한 내부 비교문을 하나하나 다 해야하므로 효율성이 떨어진다고 생각
     }
+
+    fun Q12() {
+        // 토탈 갯수는 11개임.
+        print("   |")
+        for (i in 1..9) System.out.printf("%3d", i)
+        println("\n---+---------------------------")
+
+        for (i in 1..9) {
+            System.out.printf("%2d |", i)
+            for (j in 1..9) System.out.printf("%3d", i * j)
+            println()
+        }
+    }
 }

@@ -1,8 +1,9 @@
 import javaalgo.chapter1.Chapter1
+import java.util.*
 
 // 출력용
 fun main(args: Array<String>) {
-    val result = Chapter1().Median().med3(3, 1, 2)
+    Chapter1().Q12()
 }
 
 
